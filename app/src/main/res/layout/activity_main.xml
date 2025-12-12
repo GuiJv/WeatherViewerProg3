@@ -8,7 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- EditText só para referência (o livro usa) -->
     <EditText
         android:id="@+id/locationEditText"
         android:layout_width="0dp"
