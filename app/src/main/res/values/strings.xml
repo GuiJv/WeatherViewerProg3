@@ -1,13 +1,14 @@
 <resources>
-    <string name="app_name">WeatherViewer</string>
-    <string name="web_service_url">http://api.openweathermap.org/data/2.5/forecast/daily?q=</string>
+    <string name="app_name">Programa de Clima</string>
+    <string name="web_service_url">http://agent-weathermap-env-env.eba-6pzgqekp.us-east-2.elasticbeanstalk.com/api/weather?city=</string>
     <string name="invalid_url">Invalid URL</string>
     <string name="weather_condition_image">A graphical representation of the weather conditions</string>
-    <string name="high_temp">High: %s</string>
-    <string name="low_temp">Low: %s</string>
+    <string name="high_temp">Max: %s</string>
+    <string name="low_temp">Min: %s</string>
     <string name="day_description">%1$s: %2$s</string>
-    <string name="humidity">Humidity: %s</string>
-    <string name="hint_text">Enter city (e.g, Boston, MA, US)</string>
+    <string name="humidity">Umidade: %s</string>
+    <string name="hint_text">Digite uma cidade (e.g, Guape, MG, BR)</string>
     <string name="read_error">Unable to read weather data</string>
     <string name="connect_error">Unable to connect to OpenWeatherMap.org</string>
+    <string name="api_key">AgentWeather2024_a8f3b9c1d7e2f5g6h4i9j0k1l2m3n4o5p6</string>
 </resources>
